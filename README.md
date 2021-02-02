@@ -1,4 +1,5 @@
 1.  Make stocks appear in the dropdown
+    *  See *getStocks*
     *  Delay their return by 2.5secs by applying the **delay** operator at source (we use this delay to simulate a remote call)
 
     **Now with the list populated, each time a stock's selected, a new tab is created for that stock.**
