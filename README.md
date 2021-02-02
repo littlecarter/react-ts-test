@@ -6,10 +6,9 @@
 2.  With the list successfully populated, 'trades' are now being published at random for all stocks
     *  To prove this, apply the **tap** operator to the **getTradeStream** implementation
 
-3.  In the ActionBar component, display a loading component (LinearProgress/CircularProgress) whilst the stocks are loading
-    *   Use the *stocksLoading* value
-    *   Handle the GET_STOCKS action (loading true)
-    *   Handle the GET_STOCKS_RESULT action (loading false)    
+3.  In the ActionBar component, display a loading component (LinearProgress/CircularProgress) by setting the *stocksLoading* value:
+    *   Handle the GET_STOCKS action (outgoing)
+    *   Handle the GET_STOCKS_RESULT action (incoming)    
     
 4.  Implement the closing of a tab
     *   Handle the SHEET_CLOSED action
