@@ -1,7 +1,7 @@
 1.  Make stocks appear in the dropdown
     *  Delay their return by 2.5secs by applying the **delay** operator at source (we use this delay to simulate a remote call)
 
-*Now with the list populated, each time a stock's selected, a new tab is created for that stock*
+    **Now with the list populated, each time a stock's selected, a new tab is created for that stock**
 
 2.  With the list successfully populated, 'trades' are now being published at random for all stocks
     *  To prove this, apply the **tap** operator to the **getTradeStream** implementation
