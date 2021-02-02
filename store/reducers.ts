@@ -36,7 +36,7 @@ export const applicationReducer: Reducer<IApplicationState> = (
 
     case Actions.GET_STOCKS_RESULT: {
       const { stocks, error } = action.payload;
-      return { ...state, stocks, stocksError: error, stocksLoading: false };
+      return { ...state, stocks, stocksError: error };
     }
 
     case Actions.NEW_TRADE: {
