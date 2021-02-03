@@ -1,3 +1,9 @@
+**When the below tasks have been completed, the dropdown in the toolbar will contain 'stocks', which when selected causes the creation of a tab to represent that selected stock.
+
+With the stocks populated, a service randomly publishes 'trades' across the stocks which appear in grid form for the selected stock tab.**
+
+**Good luck!**
+
 1.  Make stocks appear in the dropdown
     *  See *getStocks*
     *  Delay their return by 2.5secs by applying the **delay** operator at source (we use this delay to simulate a remote call)
