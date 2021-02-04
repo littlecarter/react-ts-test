@@ -16,5 +16,5 @@
     *   If the currently selected tab is being closed, then current selection should be changed accordingly e.g. to the adjacent tab
 
 5.  When a tab is selected, using the SheetContainer/Sheet components, display the associated stock's trades
-    *   The top 10, ordered by time 
+    *   Display the top 10, ordered by time
     *   See renderSelectedSheet         
