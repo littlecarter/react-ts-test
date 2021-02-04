@@ -6,7 +6,7 @@
     *  Implement *getStocks*
     *  Delay their return by 2.5secs by applying the **delay** operator (we use this delay to simulate a remote call)
 
-    **Now with the list populated, each time a stock's selected, a new tab is created for that stock.**
+    *Now with the list populated, each time a stock's selected, a new tab is created for that stock.*
 
 2.  With the list successfully populated, 'trades' are now being published at random across all stocks.
     *  To prove this, apply the **tap** operator to the **getTradeStream** implementation, and output the trade to the console
