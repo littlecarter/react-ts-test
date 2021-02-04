@@ -1,6 +1,4 @@
-**Please complete the below tasks.  When complete, the dropdown in the toolbar will contain names of stocks, which when selected cause the creation of a tab to represent that selected stock.**
-
-**With the stocks dropdown populated, a service will now randomly publish 'trades' across the stocks which appear in grid form for the selected stock tab.**
+**When the below tasks are complete, the dropdown in the toolbar will contain names of stocks, which when selected cause the creation of a tab to represent that selected stock.  The tab when selected will display the top 10 most recent 'trades' (as published by a fake service) in grid form.**
 
 1.  Make stocks appear in the dropdown
     *  Implement *getStocks*
@@ -20,6 +18,3 @@
 5.  When a tab is selected, using the SheetContainer/Sheet components, display the associated stock's trades:   
     *   The top 10, ordered by time 
     *   See renderSelectedSheet         
-
-*Nice to have if time:*
-*  If a sheet already exists for stock, reuse it (select it), instead of creating a new one.
