@@ -1,4 +1,4 @@
-**When the below tasks are complete, the dropdown in the toolbar will contain names of stocks, which when selected cause the creation of a tab to represent that selected stock.  The tab when selected will display the top 10 most recent 'trades' (as published by a fake service) in grid form.**
+**When the below tasks are complete, the dropdown in the toolbar will contain names of stocks, which when selected cause the creation of a tab to represent that selected stock.  The tab when selected will display the top 10 most recent 'trades' in grid form.**
 
 1.  Make stocks appear in the dropdown
     *  Implement *getStocks*
